@@ -1,0 +1,21 @@
+body{
+    /* background-image: url(./images/2000082.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(#38EF7D, #18d8df);
+
+
+}
+h1{
+    color: white;
+    font-family: monospace;
+    font-weight: 600;
+}
+.btn{
+    background-color: #00f597;
+}
+
+
+
+
