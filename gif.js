@@ -22,6 +22,19 @@ function dispayData(destinationDetails){
     s=destinationDetails.data[12].images.fixed_width.url
     t=destinationDetails.data[13].images.fixed_width.url
     u=destinationDetails.data[14].images.fixed_width.url
+    v=destinationDetails.data[15].images.fixed_width.url
+    w=destinationDetails.data[16].images.fixed_width.url
+    x=destinationDetails.data[17].images.fixed_width.url
+    y=destinationDetails.data[18].images.fixed_width.url
+    z=destinationDetails.data[19].images.fixed_width.url
+    a=destinationDetails.data[20].images.fixed_width.url
+    b=destinationDetails.data[21].images.fixed_width.url
+    c=destinationDetails.data[22].images.fixed_width.url
+    d=destinationDetails.data[23].images.fixed_width.url
+    e=destinationDetails.data[24].images.fixed_width.url
+   
+
+
  
    
     result.innerHTML=`
@@ -39,6 +52,18 @@ function dispayData(destinationDetails){
     <img src="${r}.gif" alt="Computer man" style="width:200px;height:200px;padding-bottom: 5px;">
     <img src="${s}.gif" alt="Computer man" style="width:200px;height:200px;padding-bottom: 5px;">
     <img src="${t}.gif" alt="Computer man" style="width:200px;height:200px;padding-bottom: 5px;">
-    <img src="${u}.gif" alt="Computer man" style="width:200px;height:200px;padding-bottom: 5px;">`
+    <img src="${u}.gif" alt="Computer man" style="width:200px;height:200px;padding-bottom: 5px;"><br>
+    <img src="${v}.gif" alt="Computer man" style="width:200px;height:200px;padding-bottom: 5px;">
+    <img src="${w}.gif" alt="Computer man" style="width:200px;height:200px;padding-bottom: 5px;">
+    <img src="${x}.gif" alt="Computer man" style="width:200px;height:200px;padding-bottom: 5px;">
+    <img src="${y}.gif" alt="Computer man" style="width:200px;height:200px;padding-bottom: 5px;">
+    <img src="${z}.gif" alt="Computer man" style="width:200px;height:200px;padding-bottom: 5px;"><br>
+    <img src="${a}.gif" alt="Computer man" style="width:200px;height:200px;padding-bottom: 5px;">
+    <img src="${b}.gif" alt="Computer man" style="width:200px;height:200px;padding-bottom: 5px;">
+    <img src="${c}.gif" alt="Computer man" style="width:200px;height:200px;padding-bottom: 5px;">
+    <img src="${d}.gif" alt="Computer man" style="width:200px;height:200px;padding-bottom: 5px;">
+    <img src="${e}.gif" alt="Computer man" style="width:200px;height:200px;padding-bottom: 5px;">
+    `
+    
    
 }
